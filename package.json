@@ -1,0 +1,30 @@
+{
+  "name": "mimos-apps-sdk",
+  "version": "1.0.0",
+  "description": "SDK for integrating with Mimos App Analytics Service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "analytics",
+    "mcp",
+    "metrics",
+    "mimos"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
